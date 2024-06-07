@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ESNext",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node", 
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist",
+        "paths": {
+            "@/*": ["*"],
+        },
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types",
+        ],
+        "types": [],
+        "lib": ["ESNext", "DOM"],
+        "resolveJsonModule": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "declarationMap": true,
+        "allowSyntheticDefaultImports" : true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "**/*.ts",
+        "./types/*.d.ts", 
+    ],
+    "exclude": ["node_modules"]
+}   

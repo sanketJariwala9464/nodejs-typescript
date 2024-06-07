@@ -1,0 +1,57 @@
+{
+    "required" : ":0 is required.",
+    "numeric" : ":0 should be number only.",
+    "min" : ":0 should be greater than :1 characters.",
+    "max" : ":0 should not be greater than :1 characters.",
+
+    "email": ":0 should be a valid email address.",
+
+    "insert" : ":0 inserted successfully.",
+    "fail_insert" : "There is an issue inserting :0. Please try again.",
+
+    "fetch" : ":0 details fetched successfully.",
+    "fail_fetch" : "There is an issue fetching :0 details. Please try again.",
+
+    "update" : ":0 updated successfully.",
+    "fail_update" : "There is an issue updating :0. Please try again.",
+
+    "delete" : ":0 deleted successfully.",
+    "fail_delete" : "There is an issue deleting :0. Please try again.",
+
+    "cancel" : ":0 cancelled successfully.",
+    "fail_cancel" : "There is an issue cancelling :0. Please try again.",
+
+    "status" : ":0 status updated successfully.",
+    "fail_status" : "There is an issue changing status of :0. Please try again.",
+
+    "general_fail" : "Oops! Something went wrong. Please try again.",
+
+    "fail_found" : "Failed to find :0. Please try again.",
+    "not_authorized" : "You are not authorized to :0.",
+    "already_available" : ":0 is already available.",
+    "no_record" : "No record found!",
+
+    "enum" : ":0 selected from only :1",
+
+    "login_success" : "Logged in successfully.",
+    "logout_success": "Logged out successfully.",
+
+    "invalid_credentials" : "Invalid credentials. Please try again.",
+
+    "change_password" : "Password changed successfully.",
+
+    "unauthorized" : "Unauthorized access.",
+
+    "confirm_password" : "Password and Confirm Password should be same",
+
+    "old_password_incorrect" : "Old password is incorrect. Please try again.",
+
+    "forgot_password" : "Forgot password link sent to your email.",
+    "invalid_token" : "Invalid token.",
+    "invalid_file_type": "Invalid file type, supported file types are .jpeg and .png",
+    "invalid_file_size": ":0 size should be less than :1",
+    "invalid_file_count": "You can upload only :0 files",
+    "images_required": "Images are required for :0 the property",
+    "price_list_required": "Price list is required for :0 the property",
+    "active_image_required": "Active image is required for :0 the property"
+}
